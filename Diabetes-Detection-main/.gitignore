@@ -1,0 +1,54 @@
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.zip
+
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.envrc
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.pytest_cache/
+
+# Model / datasets / uploads (adjust depending on whether you keep them outside repo)
+models/
+uploads/
+dataset/
+backend/catboost_info/tmp/
+backend/catboost_info/learn/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Misc
+coverage/
+.cache/
+*.log
